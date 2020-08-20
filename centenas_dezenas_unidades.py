@@ -36,7 +36,7 @@ def numero_escolhido():
         if numero < 0:
             numero *= -1
         if numero >= 1000:
-            print("\nEntrada invalida! O número deve, em módulo, deve ser menor do que 1000!")
+            print("\nEntrada invalida! O número deve, em módulo, ser menor do que 1000!")
             numero = int(input("Digite um número menor do que 1000:"))
         else:
             break
